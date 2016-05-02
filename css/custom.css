@@ -3,11 +3,6 @@
 
 body {font-family: 'Roboto', sans-serif;}
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat;
-    font-weight: 700;
-}
-
 
 /* CONTAINERS */
 .container.left-no-margin {
@@ -20,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 .heading.text-center span {
     font-family: 'Roboto', sans-serif;
     color:#A0A0A0;
-    font-size:14px;
+    font-size:15px;
 }
 
 /* NAVBAR */
@@ -70,7 +65,7 @@ img.header {width:193px;height:70px;}
     border-color: #BE001B;
     border-radius:0;
     padding:13px;
-    margin-right:10px;
+    margin:10px;
 }
 
 .btn.primary.small {
@@ -88,7 +83,7 @@ img.header {width:193px;height:70px;}
     border: 2px solid #fff;
     border-radius:0;
     padding:13px;
-    margin-right:10px;
+    margin:10px;
 }
 
 .btn.primary:hover, 
@@ -98,3 +93,10 @@ img.header {width:193px;height:70px;}
 .btn.secondary:hover, 
 .btn.secondary:focus, 
 .btn.secondary.focus {background-color:#fff; border-color:#fff;color:#BE001B}
+
+/* EXTRAS */
+
+.more h3,
+.more a,
+.more .btn{display:inline-block}
+.more h3 {padding-right:20px;}
