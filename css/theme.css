@@ -24,7 +24,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #BE001B;
+    color: #5D97BD;
 }
 
 h1,
@@ -86,7 +86,7 @@ header .intro-text h1 {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 100;
     letter-spacing: 1px;
     
@@ -168,6 +168,7 @@ section {
     padding: 100px 0;
 }
 
+h2,
 section h2 {
     display: block;
     font-size: 44px;

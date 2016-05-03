@@ -13,6 +13,7 @@ body {font-family: 'Roboto', sans-serif;}
     width: 100%;
 }
 .heading.text-center {margin-bottom:75px;}
+.heading,
 .heading.text-center span {
     font-family: 'Roboto', sans-serif;
     color:#A0A0A0;
@@ -58,17 +59,21 @@ img.header {width:193px;height:70px;}
 
 /* BUTTONS */
 
-.btn.primary {
+.btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
+    border-radius:0;
     letter-spacing: 1px;
     color: #ffffff;
-    background-color: #BE001B;
-    border-color: #BE001B;
-    border-radius:0;
     padding:13px;
     margin:10px;
+}
+
+
+.btn.primary {
+    background-color: #BE001B;
+    border-color: #BE001B;
 }
 
 .btn.primary.small {
@@ -76,17 +81,14 @@ img.header {width:193px;height:70px;}
     padding:8px;
 }
 
-.btn.secondary {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 100;
-    letter-spacing: 1px;
-    color: #ffffff;   
+.btn.secondary { 
     background:none;
     border: 2px solid #fff;
-    border-radius:0;
-    padding:13px;
-    margin:10px;
+}
+
+.btn.tertiary {
+    background-color: #6D6D6D;
+    border-color: #6D6D6D;
 }
 
 .btn.primary:hover, 
@@ -97,9 +99,21 @@ img.header {width:193px;height:70px;}
 .btn.secondary:focus, 
 .btn.secondary.focus {background-color:#fff; border-color:#fff;color:#BE001B}
 
+.btn.tertiary:hover, 
+.btn.tertiary:focus, 
+.btn.tertiary.focus {background-color:#A0A0A0; border-color:#A0A0A0;color:#ffffff;}
+
 /* FORMS */
 
 .form-control:focus {border-color:#7F7F7F;}
+
+/* TABS */
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #ffffff;
+    background-color: #BE001B;
+    border: 1px solid #BE001B;
+}
 
 /* EXTRAS */
 
