@@ -24,7 +24,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #BE001B;
 }
 
 h1,
@@ -37,49 +37,16 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-
-hr.star-light,
-hr.star-primary {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-}
-
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
-}
-
-hr.star-primary {
-    border-color: #2c3e50;
-}
-
-hr.star-primary:after {
-    color: #2c3e50;
-    background-color: #fff;
-}
-
 .img-centered {
     margin: 0 auto;
 }
+
+/* COLORS FAMILY */
+
+.red{color:#BE001B;}
+.gray{color:#3e3e3e;}
+.lt-gray{color:#A0A0A0;}
+
 
 /* HEADER */
 
@@ -207,12 +174,14 @@ section h2 {
     font-weight: 100;
     letter-spacing: 1px;
     margin:0 0 16px 0;
+    color:#3e3e3e;
 }
 section h3 {
     font-size:22px;
 }
 
-section.dark {
+section.dark,
+section.dark h2{
     color: #fff;
 }
 
@@ -238,7 +207,6 @@ section.success a.active {
 /* --- Services --- */
 
 #services .row.descriptions {margin-bottom:50px;}
-#services h2 {color:#3e3e3e;}
 #services h4 {color:#3e3e3e;text-transform: none;font-size:21px;letter-spacing: .5px;}
 #services p {color:#606060;font-size:15px;font-weight:400;line-height: 21px;letter-spacing: .5px;}
 #services i {color:#8d081d;font-size:40px;}
@@ -317,6 +285,10 @@ section.success a.active {
         margin: 0 0 30px;
     }
 }
+
+#contact i {color:#ffffff;font-size:20px;font-size: 23px !important;background-color:#3e3e3e;border-radius: 50%;width: 40px;height: 40px;text-align: center; ;vertical-align: middle;padding: 10px; }
+#contact h3 {font-weight:700;}
+
 
 .btn-outline {
     margin-top: 15px;
@@ -411,7 +383,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #3e3e3e;
 }
 
 .btn-social {
@@ -446,6 +418,9 @@ footer .footer-below {
     border-radius: 100%;
     font-size: 20px;
     line-height: 28px;
+    background-color:#BE001B;
+    border-color:#BE001B;
+    padding:7px;
 }
 
 .scroll-top .btn:focus {

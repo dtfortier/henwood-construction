@@ -3,6 +3,7 @@
 
 body {font-family: 'Roboto', sans-serif;}
 
+.text-right{float:right}
 
 /* CONTAINERS */
 .container.left-no-margin {
@@ -17,6 +18,8 @@ body {font-family: 'Roboto', sans-serif;}
     color:#A0A0A0;
     font-size:15px;
 }
+
+ul li {list-style: none;}
 
 /* NAVBAR */
 
@@ -94,9 +97,25 @@ img.header {width:193px;height:70px;}
 .btn.secondary:focus, 
 .btn.secondary.focus {background-color:#fff; border-color:#fff;color:#BE001B}
 
+/* FORMS */
+
+.form-control:focus {border-color:#7F7F7F;}
+
 /* EXTRAS */
 
 .more h3,
 .more a,
 .more .btn{display:inline-block}
 .more h3 {padding-right:20px;}
+
+.alert-success {
+    background-color: #009090;
+    border-color: #009090;
+    color: #ffffff;
+}
+
+.contact-links {}
+.contact-links ul {margin-left: 0;padding: 0;}
+.contact-links ul li {color: #58AECA;padding: 5px 0;letter-spacing: 1px;}
+.contact-links ul li a {padding-left:10px;color: #58AECA;text-decoration:none;}
+.contact-links ul li a:hover {color:#448AA0}
