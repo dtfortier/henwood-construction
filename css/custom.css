@@ -115,6 +115,19 @@ img.header {width:193px;height:70px;}
     border: 1px solid #BE001B;
 }
 
+/* GALLERY */
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    width: 360px;
+    height: 250px;
+}
+
+.img-responsive.full, .img-responsive.full a>img {
+    width:100%;
+    height:auto;
+}
+
 /* EXTRAS */
 
 .more h3,
